@@ -1,0 +1,206 @@
+
+.search{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(209, 214, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px; 
+   
+}
+
+.search-icon{
+    color:  rgb(139, 143, 142);
+}
+.user-info{
+    display: flex;
+    justify-content: flex-end;    
+    color:  rgb(117, 119, 119);   
+}
+.user-info div{
+    padding-right: 20px;
+}
+
+.icons{   
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(139, 143, 142);
+}
+.head-content{
+    box-shadow: 0px 0px 3px #888888;
+    padding: 5px;
+}
+
+.body-content{
+    padding: 45px;
+}
+
+.fa-address-book{
+    font-size: xx-large;
+    color: #da5d9b;
+}
+.contact-text{
+padding: 15px;
+}
+.contact-text-1{
+    display: flex;
+}
+.address-book{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inner-text{
+    line-height: 19px;
+    color: rgb(139, 143, 142);
+    font-size: x-small;
+    padding-right: 10px;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+   max-width: 300px;
+   background-color: rgb(233, 235, 234);
+   border-radius: 50px;
+   padding: 5px;
+   margin: 10px;
+   height: 45px;
+}
+.input-text{
+border: none;
+background-color:transparent;
+}
+.input-text:focus {
+    border: none;
+    border-radius: 50px;
+    background-color:transparent;
+    outline: none;
+  }
+
+  .search-icon-2{
+    color:  rgb(139, 143, 142);
+    margin: 5px;
+}
+
+.add-contacts{
+    max-width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    background: linear-gradient(to right, #f17957 0%, #eb4b9b 100%);
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    height: 45px;
+}
+.btn-sm{
+    color: white;
+    border: none !important; 
+    cursor: pointer; 
+    outline: none !important;
+}
+.contact-list{
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.t-head{
+    background-color:rgb(233, 235, 234) ;
+    color: rgb(139, 143, 142);
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.name-logo{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    color: #fff;
+}
+
+.table-body{
+    display: flex;  
+align-items: center;
+}
+
+.table-text{
+    margin-left:15px;
+}
+
+.contact-details{
+    background-color:  rgb(233, 235, 234);
+    height:470px;   
+}
+.chat-details{
+    padding: 0px!important;
+    height:470px;   
+
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;  
+}
+
+.name-logo2{
+    width: 55px;
+    height: 55px;
+    background-color: rgb(56, 201, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    color: #fff;
+}
+.details{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.details:last-child{
+    justify-content: center;
+}
+.inner-text2{
+    color: rgb(139, 143, 142);
+    font-size: small;
+}
+.inner-text3{
+text-align: center;
+}
+
+.form-container{
+    background-color: #fff;
+    padding: 30px;
+    min-height: 500px;
+    border-radius: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px #5a5959;
+}
+h1, h2, h3, h4, h5, h6 ,p{
+    margin: 0px!important;
+}
+.chat-close, .chat-close:hover{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 8px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.action-wrap i:first-child{
+    padding-right: 10px;
+}
+.chat-footer .form-control{
+    background: #fff!important;
+}
